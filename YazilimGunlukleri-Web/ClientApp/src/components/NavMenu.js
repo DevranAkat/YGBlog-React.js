@@ -8,13 +8,13 @@ export class NavMenu extends Component {
   displayName = NavMenu.name
 
   render() {
-    return (
-      <Navbar inverse fixedTop fluid collapseOnSelect>
+      return (
+          <Navbar bsStyle="custom" fixedTop fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <Link to={'/'}>YazilimGunlukleri_Web</Link>
           </Navbar.Brand>
-          <Navbar.Toggle />
+          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
@@ -40,7 +40,7 @@ export class NavMenu extends Component {
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+       </Navbar>
     );
   }
 }
