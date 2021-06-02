@@ -1,8 +1,8 @@
 ﻿import React, { Component } from 'react';
 import './contributorDetail.css';
 
-export class YunusOzdemir extends Component {
-    displayName = YunusOzdemir.name
+export class OnurhanDemir extends Component {
+    displayName = OnurhanDemir.name
 
     render() {
         return (
@@ -12,9 +12,9 @@ export class YunusOzdemir extends Component {
                         <div class="row">
                             <div class="col-auto">
                                 <div>
-                                        <img src="https://avatars.githubusercontent.com/u/54598461?v=4" class="contributorImage img-fluid" alt="yunuslogo" title="yunuslogo" />
+                                    <img src="https://avatars.githubusercontent.com/u/60575283?v=4" class="contributorImage img-fluid" alt="yunuslogo" title="yunuslogo" />
                                 </div>
-                                </div>
+                            </div>
                             <section class="col-auto about">
                                 <h1 class="about-title">Hakkımda</h1>
                                 <hr class="about-border" />
@@ -52,3 +52,4 @@ export class YunusOzdemir extends Component {
         );
     }
 }
+

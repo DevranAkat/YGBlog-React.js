@@ -9,13 +9,22 @@ export class Contributors extends Component {
 
     render() {
         return (
+            <div className="contributors">
             <NavLink
                 className="navbar-item"
                 activeClassName="is-active"
                 to="/YunusOzdemir"
             >
-                Yunus Özdemir
+                    Yunus Özdemir
             </NavLink>
+            <NavLink
+                    className="navbar-item"
+                    activeClassName="is-active"
+                    to="/OnurhanDemir"
+                >
+                    Onurhan Demir
+            </NavLink>
+            </div>
         );
     }
 }

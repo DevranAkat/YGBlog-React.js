@@ -85,3 +85,20 @@
         text-overflow: ellipsis;
     }
 }
+
+.contributors {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.contributors > a {
+    color: #fff;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    width: 15rem;
+}
