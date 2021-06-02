@@ -19,29 +19,21 @@ export class OnurhanDemir extends Component {
                                 <h1 class="about-title">Hakkımda</h1>
                                 <hr class="about-border" />
                                 <p class="about-desc">
-                                    <p class="MsoNormal"><span class="aboutHeaderText" lang="TR">Merhaba. Ben Yunus Özdemir.</span></p>
+                                    <p class="MsoNormal"><span class="aboutHeaderText" lang="TR">Merhaba. Ben Onurhan Demir.</span></p>
                                     <p class="MsoNormal" class="text-justify">
-                                        <span lang="TR">Profilo Mesleki ve Teknik Anadolu lisesinde okuyorum. Son sınıfım veritabanı
-                                        öğrencisiyim. 18 yaşındayım araştırmayı ve yeni şeyler öğrenmekten hoşlanırım. Bisiklet
-                                        sürmeyi ve müzik dinlemeyi de severim. Peki yazılım merakım nereden geliyor? Küçük
-                                        yaşlarımdan
-                                        beri oyunlara ve oyunların arkaplanında yazılan kodları merak etmişimdir.
-                                        aslında yazılım serüvenim ve aşkım bu oyunlardan geliyor. Yakın zamana kadar backend ile
-                                        ilgileniyordum backend tarafında C# ve .net kullanıyordum. Ama frontende de geçmem
-                                        gerektiğini farkına varıp frontende de atılmaya karar verdim.</span></p>
+                                        <span lang="TR">Bu sene liseden mezun oluyorum. 18 Yaşındayım ve uzun zamandır Web Frontendten ziyade
+                                            tasarımın her dalına ilgi duyarak ilerledim. Mobil arayüz geliştirme farklı şeyler tasarlamayla uğraşarak
+                                            kendimi geliştirmeye devam ediyorum. Bir süredir web tasarımıyla uğraşıyorum frontend tarafında birçok teknolojiyi
+                                            kullanmaya , öğrenmeye devam ediyorum. Ağırlıklı olarak javascript dünyasındayım yakın zamanda vue-js deneyimleyerek
+                                            büyük çapta projelere devam edeceğim.</span></p>
                                     <p class="MsoNormal">
-                                        <span lang="TR">Okulda öğrendiklerim aslında sadece temelimi oluşturmaya yardım etti. Okulda
-                                        C# ile birkaç uygulama geliştirmiştik
-                                        ama hepsi başlangıç düzeyinde ve beni zorlamayan şeylerdi, ben de bunlarla yetinmeyip
-                                        Udemy'den bir kaç kurs alıp yeni şeyler öğrenmeye karar verdim.</span></p>
-                                    <p class="MsoNormal"><span>Yaklaşık 1 aydır Webbilir’de staj yapıyorum.
-                                    Asp.Net Core teknolojisini kullanarak çeşitli projeler geliştiriyoruz.</span></p>
-                                    <p class="MsoNormal"><span>Burdan önce de 7 ay boyunca MakasApp'te staj yaptım. Ve yine
-                                    orada da Asp.Net Coreteknolojisini kullanarak
-                                    çeşitli projeler geliştirdik..</span></p>
-                                    <p class="MsoNormal"> <span>Genel olarak yazılım geçmişim böyle benimle
-                                        irtibata geçmek isterseniz instagram adresime <a href="https://www.instagram.com/yuunusozdemir/">buradan </a>
-                                         ulaşabilirsiniz. Ayrıcasayfanın sol alt kısmından diğer sosyal medya hesaplarıma ulaşabilirsiniz.</span>
+                                        <span lang="TR">Okulum ve çevrem alanımdan çok uzak ve önyargılı olduğundan dolayı sürekli kendi kendimi geliştirdim ve
+                                        geliştirmeye devam ediyorum. Yazılım hayatıma oyun geliştirme ile başladım ancak kısa zamanda benim için iyi bir seçenek
+                                        olmadığına karar verip yeni şeyler denedim. Sürekli deneyerek sonunda kendimi keşfedip başarılı olduğum alanda ilerledim.</span></p>
+                                    <p class="MsoNormal"><span>Uzun zamandır çeşitli ekipler kurarak yeni başlayanlara destek ve öğretmek amacıyla
+                                        kar amacı gütmeyen topluluklar oluşturdum bu alana bir çok kişi kazandırdım. Yakın zamanda iş arayışına başlayacağım.</span></p>
+                                    <p class="MsoNormal"> <span>Benimle iletişime geçebilmek için <a href="https://www.instagram.com/onurhandtr/">buradan </a>
+                                         ulaşabilirsiniz.</span>
                                     </p>
                                 </p>
                             </section>
