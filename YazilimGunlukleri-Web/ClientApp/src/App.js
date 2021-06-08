@@ -6,6 +6,7 @@ import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { Contributors } from './components/Contributors';
 import { YunusOzdemir } from './components/YunusOzdemir';
+import { OnurhanDemir } from './components/OnurhanDemir';
 
 export default class App extends Component {
   displayName = App.name
@@ -17,7 +18,8 @@ export default class App extends Component {
         <Route path='/counter' component={Counter} />
         <Route path='/fetchdata' component={FetchData} />
         <Route path='/contributors' component={Contributors} />
-        <Route path='/YunusOzdemir' component={YunusOzdemir} />
+            <Route path='/YunusOzdemir' component={YunusOzdemir} />
+            <Route path='/OnurhanDemir' component={OnurhanDemir} />
       </Layout>
     );
   }

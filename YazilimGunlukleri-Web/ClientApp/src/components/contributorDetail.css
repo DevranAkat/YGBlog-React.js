@@ -1,0 +1,28 @@
+﻿.contributorImage {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 20rem;
+    height: 20rem;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.about {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.aboutHeaderText {
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -2,40 +2,73 @@
     margin-right: 10px;
 }
 
+.navbar {
+    background-color: #11101d;
+}
+
+.navbar-toggle {
+    background-image: url("../menu.svg");
+    box-shadow: none;
+    background-repeat: no-repeat;
+}
+
 /* Highlighting rules for nav menu items */
-.navbar .navbar-nav .active a,
-.navbar .navbar-nav .active a:hover,
-.navbar .navbar-nav .active a:focus {
-    background-image: none;
-    background-color: #4189C7;
-    color: white;
+    .navbar .navbar-nav .active a,
+    .navbar .navbar-nav .active a:hover,
+    .navbar .navbar-nav .active a:focus {
+        background-image: none;
+        background-color: #E5E7EB;
+        color: #374151;
+    }
+
+.navbar li a {
+    color: #D1D5DB;
+    padding: 10px 16px;
+    border-radius: 4px;
+}
+
+    .navbar li a:hover {
+        background-color: #F948D6;
+        color: white;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.navbar .container-fluid .navbar-brand {
+    color: #fff;
+    text-shadow: none;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 @media (min-width: 768px) {
     /* On large screens, convert the nav menu to a vertical sidebar */
     .navbar {
-        height: 100%;
-        width: calc(25% - 20px);
-    }
-    .navbar {
         border-radius: 0;
         border-width: 0;
         height: 100%;
+        width: calc(20% - 20px);
     }
+
     .navbar-header {
         float: none;
     }
     .navbar .navbar-collapse {
-        border-top: 1px solid #444;
+        border-top: 1px solid #374151;
         padding: 0;
     }
     .navbar .container-fluid {
         padding: 0;
         margin: 0;
     }
-    .navbar .container-fluid .navbar-brand {
-        margin: 0;
-    }
+        .navbar .container-fluid .navbar-brand {
+            background-color: #1d1b31;
+            text-align: center;
+            margin: 0;
+            color: #fff;
+            text-shadow: none;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
     .navbar ul {
         float: none;
     }
@@ -44,10 +77,6 @@
         font-size: 15px;
         margin: 6px;
     }
-    .navbar li a {
-        padding: 10px 16px;
-        border-radius: 4px;
-    }
     .navbar a {
         /* If a menu item's text is too long, truncate it */
         width: 100%;
@@ -55,4 +84,21 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+}
+
+.contributors {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.contributors > a {
+    color: #fff;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    width: 15rem;
 }

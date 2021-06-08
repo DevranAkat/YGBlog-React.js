@@ -8,8 +8,8 @@ export class Layout extends Component {
   render() {
     return (
       <Grid fluid>
-        <Row>
-          <Col sm={3}>
+            <Row>
+                <Col sm={3}>
             <NavMenu />
           </Col>
           <Col sm={9}>
