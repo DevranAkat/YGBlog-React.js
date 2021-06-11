@@ -8,13 +8,13 @@ export class NavMenu extends Component {
   displayName = NavMenu.name
 
   render() {
-    return (
-      <Navbar inverse fixedTop fluid collapseOnSelect>
+      return (
+          <Navbar bsStyle="custom" fixedTop fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to={'/'}>YazilimGunlukleri_Web</Link>
+            <Link to={'/'}>YG React</Link>
           </Navbar.Brand>
-          <Navbar.Toggle />
+          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
@@ -33,9 +33,14 @@ export class NavMenu extends Component {
                 <Glyphicon glyph='th-list' /> Fetch data
               </NavItem>
             </LinkContainer>
+            <LinkContainer to={'/Contributors/'}>
+              <NavItem>
+                <Glyphicon glyph='star' /> Tanışma
+              </NavItem>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+       </Navbar>
     );
   }
 }

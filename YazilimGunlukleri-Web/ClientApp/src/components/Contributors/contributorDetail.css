@@ -1,0 +1,50 @@
+﻿.contributorImage {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 20rem;
+    height: 20rem;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.about {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.aboutHeaderText {
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.contributors {
+    flex-direction: row;
+}
+
+.contributors h1 {
+    font-size: 40px;
+    padding-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contributors > a {
+    color: #fff;
+    margin-right: 0.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    background-color: black;
+    width: 15rem;
+}
