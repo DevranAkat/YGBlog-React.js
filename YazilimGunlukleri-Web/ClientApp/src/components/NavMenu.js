@@ -28,9 +28,9 @@ export class NavMenu extends Component {
                 <Glyphicon glyph='education' /> Counter
               </NavItem>
             </LinkContainer>
-            <LinkContainer to={'/fetchdata'}>
+                <LinkContainer to={'/WeatherForecast'}>
               <NavItem>
-                <Glyphicon glyph='th-list' /> Fetch data
+                <Glyphicon glyph='th-list' /> Hava durumu
               </NavItem>
             </LinkContainer>
             <LinkContainer to={'/Contributors/'}>

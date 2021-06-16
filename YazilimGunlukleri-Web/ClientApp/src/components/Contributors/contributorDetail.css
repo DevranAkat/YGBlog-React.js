@@ -48,3 +48,13 @@
     background-color: black;
     width: 15rem;
 }
+
+.contributors > a:hover {
+    background-color: #77A0A9;
+    text-decoration:none;
+}
+
+.contributors .active {
+    background-color: #77A0A9;
+    text-decoration: none;
+}
