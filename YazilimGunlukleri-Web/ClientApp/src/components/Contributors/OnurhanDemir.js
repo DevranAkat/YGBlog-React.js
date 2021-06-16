@@ -3,7 +3,6 @@ import './contributorDetail.css';
 
 export class OnurhanDemir extends Component {
     displayName = OnurhanDemir.name
-
     render() {
         return (
             <main role="main">

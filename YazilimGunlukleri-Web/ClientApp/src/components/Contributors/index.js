@@ -10,14 +10,21 @@ export class Contributors extends Component {
                 <h1>Geliştiriciler</h1>
                 <NavLink
                     className="navbar-item"
-                    activeClassName="is-active"
+                    activeClassName="active"
+                    to="/Contributors/DevranAkat"
+                >
+                    Devran Akat
+                </NavLink>
+                <NavLink
+                    className="navbar-item"
+                    activeClassName="active"
                     to="/Contributors/YunusOzdemir"
                 >
                     Yunus Özdemir
                 </NavLink>
                 <NavLink
                     className="navbar-item"
-                    activeClassName="is-active"
+                    activeClassName="active"
                     to="/Contributors/OnurhanDemir"
                 >
                     Onurhan Demir
