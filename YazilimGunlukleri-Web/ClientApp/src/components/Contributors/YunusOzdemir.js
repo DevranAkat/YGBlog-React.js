@@ -37,7 +37,7 @@ export class YunusOzdemir extends Component {
                                     <p class="MsoNormal"><span>Yaklaşık 1 aydır Webbilir’de staj yapıyorum.
                                     Asp.Net Core teknolojisini kullanarak çeşitli projeler geliştiriyoruz.</span></p>
                                     <p class="MsoNormal"><span>Burdan önce de 7 ay boyunca MakasApp'te staj yaptım. Ve yine
-                                    orada da Asp.Net Coreteknolojisini kullanarak
+                                    orada da Asp.Net Core teknolojisini kullanarak
                                     çeşitli projeler geliştirdik..</span></p>
                                     <p class="MsoNormal"> <span>Genel olarak yazılım geçmişim böyle benimle
                                         irtibata geçmek isterseniz instagram adresime <a href="https://www.instagram.com/yuunusozdemir/">buradan </a>
