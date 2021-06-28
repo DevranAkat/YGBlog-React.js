@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 
-export class FetchData extends Component {
-  displayName = FetchData.name
+export class WeatherForecast extends Component {
+    displayName = WeatherForecast.name
 
   constructor(props) {
     super(props);
     this.state = { forecasts: [], loading: true };
 
-    fetch('api/SampleData/WeatherForecasts')
+      fetch('api/WeatherForecast/WeatherDetail')
       .then(response => response.json())
-      .then(data => {
+          .then(data => {
+          console.log(data)
         this.setState({ forecasts: data, loading: false });
       });
   }
@@ -18,20 +19,18 @@ export class FetchData extends Component {
     return (
       <table className='table'>
         <thead>
-          <tr>
-            <th>Date</th>
-            <th>Temp. (C)</th>
-            <th>Temp. (F)</th>
-            <th>Summary</th>
+            <tr>
+                <th>Şehir</th>
+                <th>Sıcaklık (°C)</th>
+                <th>Açıklama</th>
           </tr>
         </thead>
         <tbody>
           {forecasts.map(forecast =>
             <tr key={forecast.dateFormatted}>
-              <td>{forecast.dateFormatted}</td>
-              <td>{forecast.temperatureC}</td>
-              <td>{forecast.temperatureF}</td>
-              <td>{forecast.summary}</td>
+                  <td>{forecast.city}</td>
+                  <td>{forecast.temp}</td>
+                  <td>{forecast.description}</td>
             </tr>
           )}
         </tbody>
@@ -42,12 +41,12 @@ export class FetchData extends Component {
   render() {
     let contents = this.state.loading
       ? <p><em>Loading...</em></p>
-      : FetchData.renderForecastsTable(this.state.forecasts);
+        : WeatherForecast.renderForecastsTable(this.state.forecasts);
 
     return (
       <div>
-        <h1>Weather forecast</h1>
-        <p>This component demonstrates fetching data from the server.</p>
+        <h1>Hava durumu</h1>
+        <p>Bu komponent hava durumunu gösterecek.</p>
         {contents}
       </div>
     );
