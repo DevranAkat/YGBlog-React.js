@@ -14,9 +14,13 @@
     padding-left: 1rem;
 }
 
+.promise {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .aboutHeaderText {
     font-weight: bold;
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -37,7 +41,7 @@
     margin-bottom: 1.5rem;
 }
 
-.contributors > a {
+.contributors>a {
     color: #fff;
     margin-right: 0.3rem;
     margin-top: 0.5rem;
@@ -49,9 +53,9 @@
     width: 15rem;
 }
 
-.contributors > a:hover {
+.contributors>a:hover {
     background-color: #77A0A9;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .contributors .active {
