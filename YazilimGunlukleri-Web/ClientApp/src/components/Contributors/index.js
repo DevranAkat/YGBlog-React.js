@@ -34,7 +34,7 @@ export class Contributors extends Component {
           activeClassName="active"
           to="/Contributors/ErtugrulEmreCihan"
         >
-          Ertuğrul Emre Cihan
+          Ertuğrul Emre Cihan / MC
         </NavLink>
       </div>
     );
