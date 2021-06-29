@@ -1,46 +1,56 @@
-﻿import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Glyphicon, Nav, Navbar, NavItem } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
-import './NavMenu.css';
+﻿import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { Glyphicon, Nav, Navbar, NavItem } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
+import "./NavMenu.css";
 
 export class NavMenu extends Component {
-  displayName = NavMenu.name
+  displayName = NavMenu.name;
 
   render() {
-      return (
-          <Navbar bsStyle="custom" fixedTop fluid collapseOnSelect>
+    return (
+      <Navbar bsStyle="custom" fixedTop fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to={'/'}>YG React</Link>
+            <Link to={"/"}>YG React</Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <LinkContainer to={'/'} exact>
+            <LinkContainer to={"/"} exact>
               <NavItem>
-                <Glyphicon glyph='home' /> Home
+                <Glyphicon glyph="home" /> Home
               </NavItem>
             </LinkContainer>
-            <LinkContainer to={'/counter'}>
+            <LinkContainer to={"/Authentication/"}>
               <NavItem>
-                <Glyphicon glyph='education' /> Counter
+                <Glyphicon glyph="user" /> Kayıt Ol & Giriş Yap
               </NavItem>
             </LinkContainer>
-                <LinkContainer to={'/WeatherForecast'}>
+            <LinkContainer to={"/counter"}>
               <NavItem>
-                <Glyphicon glyph='th-list' /> Hava durumu
+                <Glyphicon glyph="education" /> Counter
               </NavItem>
             </LinkContainer>
-            <LinkContainer to={'/Contributors/'}>
+            <LinkContainer to={"/WeatherForecast"}>
               <NavItem>
-                <Glyphicon glyph='star' /> Tanışma
+                <Glyphicon glyph="th-list" /> Hava durumu
+              </NavItem>
+            </LinkContainer>
+            <LinkContainer to={"/Contributors/"}>
+              <NavItem>
+                <Glyphicon glyph="star" /> Tanışma
+              </NavItem>
+            </LinkContainer>
+            <LinkContainer to={"/Posts/"}>
+              <NavItem>
+                <Glyphicon glyph="envelope" /> Gönderiler
               </NavItem>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
-       </Navbar>
+      </Navbar>
     );
   }
 }

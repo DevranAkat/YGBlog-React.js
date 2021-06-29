@@ -9,6 +9,9 @@ import { YunusOzdemir } from "./components/Contributors/YunusOzdemir";
 import { OnurhanDemir } from "./components/Contributors/OnurhanDemir";
 import { DevranAkat } from "./components/Contributors/DevranAkat";
 import ErtugrulEmreCihan from "./components/Contributors/ErtugrulEmreCihan";
+import Login from "./components/Authentication/Login";
+import Register from "./components/Authentication/Register";
+import Authentication from "./components/Authentication";
 
 export default class App extends Component {
   displayName = App.name;
@@ -27,6 +30,9 @@ export default class App extends Component {
           path="/Contributors/ErtugrulEmreCihan"
           component={ErtugrulEmreCihan}
         ></Route>
+        <Route path="/Authentication/" component={Authentication} />
+        <Route path="/Authentication/Login" component={Login} />
+        <Route path="/Authentication/Register" component={Register} />
       </Layout>
     );
   }
