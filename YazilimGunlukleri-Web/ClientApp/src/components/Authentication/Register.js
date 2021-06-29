@@ -11,7 +11,7 @@ export default class Register extends Component {
             <h4>Kayıt Ol</h4>
             <input
               className="form-input"
-              type="email"
+              type="text"
               placeholder="Adınız, Soyadınız"
               required
             />
