@@ -33,7 +33,7 @@ export default class ErtugrulEmreCihan extends Component {
                 </div>{" "}
               </div>{" "}
               <section class="col-auto about">
-                <h1 class="about-title"> HAKKIMDA </h1>{" "}
+                <h1 class="about-title"> Hakkımda </h1>{" "}
                 <hr class="about-border" />
                 <p class="about-desc">
                   <p class="MsoNormal">
@@ -70,7 +70,7 @@ export default class ErtugrulEmreCihan extends Component {
                       bilgisayar parçalardım kısaca her şeyi yapardım &#128512;.
                       Bunun yanında o elektronik eşyalar nasıl yapılır hep merak
                       ettim "Onlar nasıl çalışıyor." diye hep süzülüp geçerdi
-                      beynimden ama aklım ermezd tabi, ama büyüdükçe insan
+                      beynimden ama aklım ermezdi tabi, ama büyüdükçe insan
                       öğreniyor insan büyüdükçe öğrenmeyi öğreniyor bende öyle
                       oldum.{" "}
                     </span>{" "}
@@ -80,7 +80,7 @@ export default class ErtugrulEmreCihan extends Component {
                   </p>{" "}
                   <p class="MsoNormal">
                     <span>
-                      <h2>YAZILIM HAYATIM NASIL BAŞLADI ?</h2>{" "}
+                      <h2>YAZILIM HAYATIM NASIL BAŞLADIM ?</h2>{" "}
                     </span>{" "}
                   </p>{" "}
                   <hr class="about-border" />
