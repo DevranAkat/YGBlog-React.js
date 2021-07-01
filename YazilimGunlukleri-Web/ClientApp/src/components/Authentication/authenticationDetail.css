@@ -1,0 +1,84 @@
+﻿.header {
+    text-align: center;
+}
+
+.authentication {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.authentication h1 {
+    font-size: 40px;
+    padding-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.authentication>a {
+    color: #fff;
+    margin-right: 0.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    background-color: black;
+    width: 15rem;
+}
+
+.authentication>a:hover {
+    background-color: #77A0A9;
+    text-decoration: none;
+}
+
+.authentication .active {
+    background-color: #77A0A9;
+    text-decoration: none;
+}
+
+.form-group {
+    margin-top: 7rem;
+    margin-left: 32rem;
+    max-height: 100vh;
+    max-width: 358px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-group h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-group .form-input {
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #99999998;
+    padding: 1rem;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 5px
+}
+
+.button {
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #999;
+}
+
+.button.button-success {
+    border: 2px solid #0cb130bb;
+    color: #111;
+    transition: all ease 0.3s;
+}
+
+.button.button-success:hover {
+    background: #0cb130bb;
+    color: #fff;
+}
