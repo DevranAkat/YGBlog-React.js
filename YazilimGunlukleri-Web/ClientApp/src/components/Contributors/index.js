@@ -15,6 +15,15 @@ export class Contributors extends Component {
         >
           Devran Akat
         </NavLink>
+
+        <NavLink
+          className="navbar-item"
+          activeClassName="active"
+          to="/Contributors/MuhammedSeyfullahBilgin"
+        >
+          Muhammed Seyfullah Bilgin
+        </NavLink>
+
         <NavLink
           className="navbar-item"
           activeClassName="active"
@@ -22,6 +31,7 @@ export class Contributors extends Component {
         >
           Yunus Özdemir
         </NavLink>
+
         <NavLink
           className="navbar-item"
           activeClassName="active"
